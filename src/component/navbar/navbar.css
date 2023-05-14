@@ -1,0 +1,29 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 3em;
+  /* position: sticky; */
+}
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  color: #c0c0c0;
+}
+a:hover {
+  color: white;
+}
+
+.nav-button {
+  border: 1px solid rgb(3, 179, 3);
+  outline: none;
+  background-color: transparent;
+  color: rgb(3, 179, 3);
+  cursor: pointer;
+  padding: 4px 7px;
+  border-radius: 4px;
+}

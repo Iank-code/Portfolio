@@ -1,0 +1,20 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 92vh;
+  align-items: center;
+  justify-content: flex-end;
+  /* background: red; */
+  flex: 2;
+  position: sticky;
+}
+.vertical-hr {
+  margin: 10px 0 0 10px;
+  height: 9em; /* set the height to your desired length */
+  width: 1px;
+}
+
+.sidebar > *:hover {
+  cursor: pointer;
+  color: rgb(3, 179, 3);
+}

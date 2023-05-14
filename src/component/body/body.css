@@ -1,0 +1,24 @@
+.body {
+  flex: 20;
+}
+.body > div {
+  display: flex;
+  flex-direction: column;
+  margin: 10em 0 1em 7em;
+  /* align-items: center; */
+}
+.body > div p {
+  margin-bottom: 5px !important;
+}
+
+.intro button {
+  margin-top: 10px;
+  border: 1px solid rgb(3, 179, 3);
+  outline: none;
+  background-color: transparent;
+  color: rgb(3, 179, 3);
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 4px;
+  width: 80px;
+}
