@@ -33,8 +33,28 @@ function Body() {
 
       <div className="about">
         <div className="about-text">
-            <h5>About Me</h5>
-            <p>Hello, My name is Ian Kamau. </p>
+          <h3>About Me</h3>
+          <p>Hello, My name is Ian Kamau.</p>
+          <p
+            style={{
+              color: "#c0c0c0",
+            }}
+          >
+            My passion for software engineering began when I saw the movie{" "}
+            <em style={{ color: "white" }}>Social Dilemma</em>. <br />
+            I decided to enroll myself into Moringa School, a leading bootcamp
+            in Africa.
+            <br />
+            In the capstone project at Moringa School, I worked on both the
+            frontend and backend.
+            <br />
+            I am comfortable working with databases, APIs, and server-side
+            technologies,
+            <br />
+            as well as designing and implementing dynamic user interfaces.
+            <br />I am excited to take on challenging projects and collaborate
+            with teams to create engaging and effective web applications
+          </p>
         </div>
         <div className="technologies"></div>
       </div>
