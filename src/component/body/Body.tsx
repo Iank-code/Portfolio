@@ -1,4 +1,5 @@
 import "./body.css";
+
 function Body() {
   return (
     <div className="body">
@@ -32,31 +33,56 @@ function Body() {
       </div>
 
       <div className="about">
-        <div className="about-text">
-          <h3>About Me</h3>
-          <p>Hello, My name is Ian Kamau.</p>
-          <p
-            style={{
-              color: "#c0c0c0",
-            }}
-          >
-            My passion for software engineering began when I saw the movie{" "}
-            <em style={{ color: "white" }}>Social Dilemma</em>. <br />
-            I decided to enroll myself into Moringa School, a leading bootcamp
-            in Africa.
-            <br />
-            In the capstone project at Moringa School, I worked on both the
-            frontend and backend.
-            <br />
-            I am comfortable working with databases, APIs, and server-side
-            technologies,
-            <br />
-            as well as designing and implementing dynamic user interfaces.
-            <br />I am excited to take on challenging projects and collaborate
-            with teams to create engaging and effective web applications
-          </p>
+        <h3>About Me</h3>
+        <p>Hello, My name is Ian Kamau.</p>
+        <p
+          style={{
+            color: "#c0c0c0",
+          }}
+        >
+          My passion for software engineering began when I saw the movie{" "}
+          <em style={{ color: "white" }}>Social Dilemma</em>. <br />
+          I decided to enroll myself into Moringa School, a leading bootcamp in
+          Africa.
+          <br />
+          In the capstone project at Moringa School, I worked on both the
+          frontend and backend.
+          <br />
+          I am comfortable working with databases, APIs, and server-side
+          technologies,
+          <br />
+          as well as designing and implementing dynamic user interfaces.
+          <br />I am excited to take on challenging projects and collaborate
+          with teams
+          <br />
+          to create engaging and effective web applications.
+        </p>
+      </div>
+
+      <div className="body-technologies">
+        <h3>Tools and Technologies</h3>
+        <div className="technologies-wrapper">
+          <div className="tools">
+            <h4>Here are the tools I use</h4>
+            <ul>
+              <li>GitHub</li>
+              <li>VS Code</li>
+            </ul>
+          </div>
+          <div className="tools">
+            <h4>Here are the technologies I use</h4>
+            <ul>
+              <li>Javascript</li>
+              <li>Typescript</li>
+              <li>React Js</li>
+              <li>Next Js</li>
+              <li>Sass</li>
+              <li>Ruby on Rails</li>
+              <li>Python Basics</li>
+              <li>UI UX Design (Basics) with figma</li>
+            </ul>
+          </div>
         </div>
-        <div className="technologies"></div>
       </div>
     </div>
   );

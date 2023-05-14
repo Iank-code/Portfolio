@@ -3,7 +3,6 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 15px 3em;
-  /* position: sticky; */
 }
 .links {
   display: flex;

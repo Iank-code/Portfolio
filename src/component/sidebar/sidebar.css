@@ -4,11 +4,9 @@
   height: 92vh;
   align-items: center;
   justify-content: flex-end;
-  /* background: red; */
   flex: 2;
   position: fixed;
   margin: 0 3em;
-  /* position: sticky; */
 }
 .vertical-hr {
   margin: 10px 0 0 10px;
