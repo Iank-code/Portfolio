@@ -32,9 +32,10 @@ function Body() {
         <button>Let's talk</button>
       </div>
 
+      {/* Basic description about my self */}
       <div className="about">
         <h3>About Me</h3>
-        <p>Hello, My name is Ian Kamau.</p>
+        <p>Hello,</p>
         <p
           style={{
             color: "#c0c0c0",
@@ -59,6 +60,7 @@ function Body() {
         </p>
       </div>
 
+      {/* For about all tools and technologies that i use */}
       <div className="body-technologies">
         <h3>Tools and Technologies</h3>
         <div className="technologies-wrapper">
@@ -66,7 +68,9 @@ function Body() {
             <h4>Here are the tools I use</h4>
             <ul>
               <li>GitHub</li>
+              <li>Figma</li>
               <li>VS Code</li>
+              <li>PyCharm</li>
             </ul>
           </div>
           <div className="tools">
@@ -79,11 +83,16 @@ function Body() {
               <li>Sass</li>
               <li>Ruby on Rails</li>
               <li>Python Basics</li>
-              <li>UI UX Design (Basics) with figma</li>
+              <li>UI UX Design (Basics)</li>
             </ul>
           </div>
         </div>
       </div>
+
+      {/* For experience */}
+      {/* For Projects */}
+      {/* Contact */}
+      {/* Footer */}
     </div>
   );
 }
