@@ -1,5 +1,4 @@
 import "./navbar.css";
-// import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -11,7 +10,6 @@ function Navbar() {
         <a href="#">.About()</a>
         <a href="#">.Contact()</a>
         <a href="#">.Project()</a>
-        {/* <NavLink to="#" /> */}
         <button className="nav-button">Resume</button>
       </div>
     </div>

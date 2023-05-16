@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: column;
   margin: 5em 0 0.5em 7em;
-  /* align-items: center; */
 }
 .body > div p {
   margin-bottom: 5px !important;
@@ -40,8 +39,21 @@ li {
   display: flex;
   gap: 2em;
 }
-.technologies-divide{
+.technologies-divide {
   display: flex;
   margin-left: 5em;
   gap: 2.3em;
+}
+
+@media screen and (max-width: 400px) {
+  .body {
+    flex: 20;
+    margin-left: 0;
+    width: 360px;
+  }
+  .body > div {
+    display: flex;
+    flex-direction: column;
+    margin: 3em 0 0.5em 4em;
+  }
 }

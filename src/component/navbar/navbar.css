@@ -26,3 +26,13 @@ a:hover {
   padding: 4px 7px;
   border-radius: 4px;
 }
+
+/* For screen with max-width 400 */
+@media screen and (max-width: 400px) {
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 13px;
+  }
+}

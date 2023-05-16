@@ -7,3 +7,24 @@
   justify-content: center;
   gap: 3em;
 }
+
+@media screen and (max-width: 400px) {
+  .project {
+    width: 360px;
+  }
+  .projects-container{
+    width: 360px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  iframe{
+    margin: 0 1em;
+    width: 400px;
+    height: 200px;
+  }
+  /* .body > div {
+    display: flex;
+    flex-direction: column;
+    margin: 3em 0 0.5em 4em;
+  } */
+}

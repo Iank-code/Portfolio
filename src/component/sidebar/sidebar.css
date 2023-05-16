@@ -18,3 +18,9 @@
   cursor: pointer;
   color: rgb(3, 179, 3);
 }
+
+@media screen and (max-width: 400px) {
+  .sidebar {
+    margin: 0 0.6em;
+  }
+}
