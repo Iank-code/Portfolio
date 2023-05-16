@@ -1,4 +1,5 @@
 import "./body.css";
+import Project from "./projects/Project.js";
 
 function Body() {
   return (
@@ -75,21 +76,31 @@ function Body() {
           </div>
           <div className="tools">
             <h4>Here are the technologies I use</h4>
-            <ul>
-              <li>Javascript</li>
-              <li>Typescript</li>
-              <li>React Js</li>
-              <li>Next Js</li>
-              <li>Sass</li>
-              <li>Ruby on Rails</li>
-              <li>Python Basics</li>
-              <li>UI UX Design (Basics)</li>
-            </ul>
+
+            <div className="technologies-divide">
+              {/* For first technologies */}
+              <ul>
+                <li>Sass</li>
+                <li>Javascript</li>
+                <li>Typescript</li>
+                <li>React Js</li>
+                <li>Redux Toolkit</li>
+              </ul>
+
+              {/* For second technologies */}
+              <ul>
+                <li>Next Js</li>
+                <li>Ruby on Rails</li>
+                <li>Python Basics</li>
+                <li>UI UX Design (Basics)</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
 
       {/* For experience */}
+      <Project />
       {/* For Projects */}
       {/* Contact */}
       {/* Footer */}

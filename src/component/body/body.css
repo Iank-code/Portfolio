@@ -30,13 +30,18 @@ h3 {
 li {
   color: #c0c0c0;
 }
-.tools{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+.tools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
-.technologies-wrapper{
-    display: flex;
-    gap: 2em;
+.technologies-wrapper {
+  display: flex;
+  gap: 2em;
+}
+.technologies-divide{
+  display: flex;
+  margin-left: 5em;
+  gap: 2.3em;
 }
