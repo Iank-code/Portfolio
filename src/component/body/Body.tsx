@@ -62,7 +62,7 @@ function Body() {
       </div>
 
       {/* For about all tools and technologies that i use */}
-      <div className="body-technologies">
+      <div>
         <h3>Tools and Technologies</h3>
         <div className="technologies-wrapper">
           <div className="tools">
@@ -100,8 +100,8 @@ function Body() {
       </div>
 
       {/* For experience */}
-      <Project />
       {/* For Projects */}
+      <Project />
       {/* Contact */}
       {/* Footer */}
     </div>
