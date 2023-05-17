@@ -51,9 +51,22 @@ li {
     margin-left: 0;
     width: 360px;
   }
+  body > * {
+    flex-wrap: nowrap;
+  }
+  p {
+    font-size: 15px;
+    margin-right: 15px;
+  }
   .body > div {
     display: flex;
     flex-direction: column;
     margin: 3em 0 0.5em 4em;
+  }
+  .technologies-divide {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    gap: 2.3em;
   }
 }

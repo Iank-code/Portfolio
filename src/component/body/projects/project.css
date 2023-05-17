@@ -10,6 +10,7 @@
 
 @media screen and (max-width: 400px) {
   .project {
+    margin-left: 0;
     width: 360px;
   }
   .projects-container{
@@ -18,13 +19,9 @@
     flex-direction: column-reverse;
   }
   iframe{
-    margin: 0 1em;
-    width: 400px;
-    height: 200px;
+    margin: 0 1em 0 -5em;
+    width: 270px;
+
+    height: 250px;
   }
-  /* .body > div {
-    display: flex;
-    flex-direction: column;
-    margin: 3em 0 0.5em 4em;
-  } */
 }
