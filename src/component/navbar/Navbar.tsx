@@ -1,6 +1,38 @@
 import "./navbar.css";
 
 function Navbar() {
+  const downloadCV = () => {
+    // fetch(`https://portfolio-backend-lpw2.onrender.com/documents/1`)
+    //   .then((response) => {
+    //     console.log(response.ok);
+    //     response.blob();
+    //   })
+    //   .then((data) => {
+    //     console.log(data);
+    //   })
+    //   .catch((error) => {
+    //     console.error("Error downloading file:", error);
+    //   });
+
+    fetch(`https://portfolio-backend-lpw2.onrender.com/documents/1`, {
+      method: "GET",
+    })
+      .then((response) => response.blob())
+      .then((data) => {
+        console.log(data);
+
+        const url = window.URL.createObjectURL(new Blob([data]));
+        const link = document.createElement("a");
+        link.href = url;
+        link.setAttribute("download", `Ian Kamau.pdf`);
+        // 3. Append to html page
+        document.body.appendChild(link);
+        // 4. Force download
+        link.click();
+        // 5. Clean up and remove the link
+        // link.parentNode.removeChild(link);
+      });
+  };
   return (
     <div className="navbar-container">
       <div className="name">
@@ -10,7 +42,9 @@ function Navbar() {
         <a href="#">.About()</a>
         <a href="#">.Contact()</a>
         <a href="#">.Project()</a>
-        <button className="nav-button">Resume</button>
+        <button className="nav-button" onClick={() => downloadCV()}>
+          Resume
+        </button>
       </div>
     </div>
   );
