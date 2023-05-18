@@ -2,18 +2,6 @@ import "./navbar.css";
 
 function Navbar() {
   const downloadCV = () => {
-    // fetch(`https://portfolio-backend-lpw2.onrender.com/documents/1`)
-    //   .then((response) => {
-    //     console.log(response.ok);
-    //     response.blob();
-    //   })
-    //   .then((data) => {
-    //     console.log(data);
-    //   })
-    //   .catch((error) => {
-    //     console.error("Error downloading file:", error);
-    //   });
-
     fetch(`https://portfolio-backend-lpw2.onrender.com/documents/1`, {
       method: "GET",
     })
@@ -29,8 +17,6 @@ function Navbar() {
         document.body.appendChild(link);
         // 4. Force download
         link.click();
-        // 5. Clean up and remove the link
-        // link.parentNode.removeChild(link);
       });
   };
   return (
