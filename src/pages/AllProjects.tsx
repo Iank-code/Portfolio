@@ -1,9 +1,13 @@
-import React from 'react'
+import Navbar from "../component/navbar/Navbar.js";
+import Sidebar from "../component/sidebar/Sidebar.js";
 
 function AllProjects() {
   return (
-    <div>AllProjects</div>
-  )
+    <div className="app-container">
+      <Navbar />
+      <Sidebar />
+    </div>
+  );
 }
 
-export default AllProjects
+export default AllProjects;

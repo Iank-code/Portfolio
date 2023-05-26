@@ -9,11 +9,13 @@
   justify-content: space-evenly;
   gap: 20px;
 }
-.navbar-container span {
+.navbar-container a {
   cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
   color: #c0c0c0;
 }
-.navbar-container span:hover {
+.navbar-container a:hover {
   color: white;
 }
 
@@ -47,7 +49,7 @@
   .navbar-container .links {
     gap: 10px;
   }
-  .navbar-container span {
+  .navbar-container a {
     font-size: 14px;
   }
 }
