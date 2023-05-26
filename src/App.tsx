@@ -1,11 +1,10 @@
 import "./App.css";
 import "./navbar.css";
-// import Navbar from "./component/navbar/Navbar.js";
 import Sidebar from "./component/sidebar/Sidebar.js";
 import Body from "./component/body/Body.js";
 
 function App() {
-
+  // Function for downloading
   const downloadCV = () => {
     fetch(`https://portfolio-backend-lpw2.onrender.com/documents/1`, {
       method: "GET",
@@ -31,9 +30,9 @@ function App() {
           <h3>Ian Kamau</h3>
         </div>
         <div className="links">
-          <span>.About()</span>
-          <span onClick={() => alert("Works")}>.Contact()</span>
-          <span>.Project()</span>
+          {/* <span>.About()</span>
+          <span onClick={() => scrollToAbout()}>.Contact()</span> */}
+          <span>.Projects()</span>
           <button className="nav-button" onClick={() => downloadCV()}>
             Resume
           </button>
