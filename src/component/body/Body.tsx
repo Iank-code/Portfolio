@@ -1,7 +1,15 @@
+import { useRef } from "react";
 import "./body.css";
 import Project from "./projects/Project.js";
 
 function Body() {
+  const aboutSection = useRef(null);
+  // const scrollToAbout = () => {
+  //   window.scrollTo({
+  //     top: aboutSection.current.offsetTop,
+  //     behavior: "smooth",
+  //   });
+  // };
   return (
     <div className="body">
       <div className="intro">
@@ -34,7 +42,7 @@ function Body() {
       </div>
 
       {/* Basic description about my self */}
-      <div className="about">
+      <div className="about" ref={aboutSection}>
         <h3>About Me</h3>
         <p>Hello,</p>
         <p

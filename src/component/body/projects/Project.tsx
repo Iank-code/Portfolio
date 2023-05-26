@@ -1,4 +1,5 @@
 import "./project.css";
+// import "./navbar.css";
 
 function Project() {
   return (
