@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   // Function for downloading
   const downloadCV = () => {
-    fetch(`https://portfolio-backend-lpw2.onrender.com/documents/1`, {
+    fetch("https://portfolio-backend-lpw2.onrender.com/documents", {
       method: "GET",
     })
       .then((response) => response.blob())
