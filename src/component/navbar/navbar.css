@@ -15,9 +15,6 @@
   font-size: 18px;
   color: #c0c0c0;
 }
-.navbar-container a:hover {
-  color: white;
-}
 
 .navbar-container .nav-button {
   border: 1px solid rgb(3, 179, 3);
