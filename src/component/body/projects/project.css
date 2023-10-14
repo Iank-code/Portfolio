@@ -32,7 +32,8 @@
   .projects-container {
     width: 360px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    padding-bottom: 1em;
   }
   .each-project{
     display: flex;
@@ -47,7 +48,6 @@
   .image{
     width: 270px;
     margin-left: -5em;
-    margin-bottom: 4em;
   }
   iframe {
     margin: 0 1em 0 -5em;
