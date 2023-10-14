@@ -13,13 +13,9 @@ function Project() {
               <em>BeeKissed Honey</em>
             </h2>
             <p>
-              Cloud storage is a very popular storage solution in the modern
-              time.
-              <br />
-              It provides an easy way for one <br /> to organize their files in
-              an accessible manner.
-              <br />
-              Moringa Box provides a solution to cloud storage.
+              BeeKissed Honey is an e-commerce platform <br /> that allows
+              customers to purchase sweet honey products ensuring <br /> fast
+              delivery.
             </p>
 
             <div
