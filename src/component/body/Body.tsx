@@ -91,7 +91,7 @@ function Body() {
               <ul>
                 <li>Next Js</li>
                 <li>Ruby on Rails</li>
-                <li>Python Basics</li>
+                <li>Node Js</li>
                 <li>UI UX Design (Basics)</li>
               </ul>
             </div>
