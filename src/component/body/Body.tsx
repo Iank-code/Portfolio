@@ -15,51 +15,44 @@ function Body() {
         <h1>
           <em> Ian Kamau</em>
         </h1>
-        <p
+
+        {/* Basic description about my self */}
+        <div className="about">
+          <h3>About Me</h3>
+          <p>Hello,</p>
+          <p
+          className="text-desc"
           style={{
             color: "#c0c0c0",
             marginTop: "10px",
           }}
         >
-          I am a skilled developer with expertise in SCSS, React, Next.js, and
-          TypeScript,
-          <br />
-          as well as experience with Ruby on Rails.
-          <br />
-          Graduated from Moringa School, a leading coding bootcamp in Africa.
-          <br />I am currently learning python and UI UX design with figma.
+          I am a dedicated and skilled full-stack software engineer with a strong command of SCSS, React, Next.js, TypeScript, and Ruby on Rails. My journey into software engineering began with a deep fascination for creating impactful digital solutions. Graduating from Moringa School, a prestigious coding bootcamp in Africa, equipped me with a solid foundation in both frontend and backend development.
         </p>
-
-        <button>Let's talk</button>
-      </div>
-
-      {/* Basic description about my self */}
-      <div className="about">
-        <h3>About Me</h3>
-        <p>Hello,</p>
+        <br />
         <p
+          className="text-desc"
           style={{
             color: "#c0c0c0",
           }}
         >
-          My passion for software engineering began when I saw the movie{" "}
-          <em style={{ color: "white" }}>Social Dilemma</em>. <br />
-          I decided to enroll myself into Moringa School, a leading bootcamp in
-          Africa.
-          <br />
-          In the capstone project at Moringa School, I worked on both the
-          frontend and backend.
-          <br />
-          I am comfortable working with databases, APIs, and server-side
-          technologies,
-          <br />
-          as well as designing and implementing dynamic user interfaces.
-          <br />I am excited to take on challenging projects and collaborate
-          with teams
-          <br />
-          to create engaging and effective web applications.
+          Driven by a passion for innovation and problem-solving, I excel in architecting robust web applications that combine sleek user interfaces with efficient backend functionalities. My proficiency extends to database management, API integration, and crafting responsive, dynamic user experiences. I thrive in collaborative environments, where my ability to deliver scalable and user-centric solutions shines through.
         </p>
+
+        <br />
+        <p
+          className="text-desc"
+          style={{
+            color: "#c0c0c0",
+          }}
+        >
+          With a commitment to continuous learning and a keen eye for emerging technologies, I am poised to tackle new challenges and contribute effectively to cutting-edge projects. I am enthusiastic about leveraging my expertise to drive success and innovation in the ever-evolving field of full-stack development.
+        </p>
+
+        <button>Let's talk</button>
+        </div>
       </div>
+
 
       {/* For about all tools and technologies that i use */}
       <div>

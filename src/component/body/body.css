@@ -11,6 +11,14 @@
   font-size: 20px;
   margin-bottom: 5px !important;
 }
+.intro{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.text-desc{
+  width: 60%;
+}
 
 .intro button {
   margin-top: 10px;
@@ -59,6 +67,11 @@ li {
     font-size: 15px;
     margin-right: 15px;
   }
+
+  .text-desc{
+    width: 90% !important;
+    font-size: 18px !important;
+  }
   .body > div {
     display: flex;
     flex-direction: column;
@@ -69,5 +82,8 @@ li {
     flex-direction: column;
     margin-left: 1em;
     gap: 2.3em;
+  }
+  .technologies-wrapper{
+    margin-right: 10px;
   }
 }

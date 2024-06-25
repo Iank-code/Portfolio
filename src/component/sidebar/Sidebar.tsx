@@ -1,6 +1,5 @@
 import "./sidebar.css";
 import github from "./../../assets/github.png";
-import twitter from "./../../assets/twitter.png";
 import linkedin from "./../../assets/linkedin.png";
 
 
@@ -18,11 +17,6 @@ function Sidebar() {
         target="_blank"
       >
         <img src={linkedin} alt="LinkedIn image" width={30} height={30} />
-      </a>
-
-      {/* For twitter */}
-      <a href="https://twitter.com/Ian_KamauKE" target="_blank">
-        <img src={twitter} alt="twitter image" width={30} height={30} />
       </a>
       <hr className="vertical-hr" />
     </div>
