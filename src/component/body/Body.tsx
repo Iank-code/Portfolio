@@ -1,3 +1,4 @@
+import JobHistory from "../job_history/JobHistory.js";
 import "./body.css";
 import Project from "./projects/Project.js";
 
@@ -93,6 +94,7 @@ function Body() {
       </div>
 
       {/* For experience */}
+      <JobHistory/>
       {/* For Projects */}
       <Project />
       {/* Contact */}
