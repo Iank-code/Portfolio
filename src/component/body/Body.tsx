@@ -92,11 +92,10 @@ function Body() {
           </div>
         </div>
       </div>
-
-      {/* For experience */}
-      <JobHistory/>
       {/* For Projects */}
       <Project />
+      {/* For experience */}
+      <JobHistory/>
       {/* Contact */}
       {/* Footer */}
     </div>

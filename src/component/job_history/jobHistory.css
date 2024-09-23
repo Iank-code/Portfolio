@@ -1,0 +1,22 @@
+.project {
+  margin-left: 5em;
+}
+
+@media only screen and (max-width: 400px) {
+  h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.8rem;
+    margin-left: -2.6em;
+  }
+
+  h4 {
+    font-size: 0.8rem;
+  }
+
+  .job-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
