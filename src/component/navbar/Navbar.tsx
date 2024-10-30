@@ -11,7 +11,7 @@ function Navbar() {
         </NavLink>
       </div>
       <div className="links">
-        <NavLink to="/all">.Projects()</NavLink>
+        {/* <NavLink to="/all">.Projects()</NavLink> */}
         <a className="nav-button" href={IanKamau} download>
           Resume
         </a>

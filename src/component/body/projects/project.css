@@ -15,16 +15,21 @@
 
 .each-project {
   display: flex;
+  margin-right: 7em;
   justify-content: center;
   align-items: center;
   gap: 5em;
+}
+
+.each-project > p {
+  width: 40%;
 }
 .each-project h2 {
   color: #03b303;
   font-size: 30px;
   margin-bottom: 20px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 460px) {
   .project {
     margin-left: 0;
     width: 360px;
@@ -33,19 +38,29 @@
     width: 360px;
     display: flex;
     flex-direction: column;
+    gap: 3em;
     padding-bottom: 1em;
   }
-  .each-project{
+  .each-project {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: -0.6em;
+    margin-right: -1.4em;
+    gap: 1em;
   }
-  .project-info{
+
+  .each-project .project-info p {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  .project-info {
     margin-right: 3em;
   }
-  .image{
+  .image {
     width: 270px;
     margin-left: -5em;
   }
